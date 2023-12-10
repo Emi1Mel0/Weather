@@ -1,0 +1,43 @@
+body {
+  background-color: #1e202b;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+section {
+  background-image: url(WeatherImages/banner.png);
+  /* background-size: cover 80vh; */
+  background-size: cover;
+  
+}
+
+.mainNav {
+}
+
+form {
+  position: relative;
+}
+
+input {
+  background-color: #1e202b;
+  border: transparent;
+}
+
+button {
+  cursor: pointer;
+  border: transparent;
+  background: #10b2f1;
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 1%;
+}
+li {
+  color: #009ad8;
+  list-style-type: none;
+  padding-right: 2rem;
+}
+
+.toDayWeather {
+  box-shadow: 1px 1px 2px 5px rgb(29, 76, 117);
+}
